@@ -1,0 +1,39 @@
+PODS:
+  - AWSCognito (2.4.11):
+    - AWSCore (= 2.4.11)
+  - AWSCore (2.4.11)
+  - AWSDynamoDB (2.4.11):
+    - AWSCore (= 2.4.11)
+  - AWSS3 (2.4.11):
+    - AWSCore (= 2.4.11)
+  - AWSSNS (2.4.11):
+    - AWSCore (= 2.4.11)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - IQKeyboardManager (4.0.7)
+
+DEPENDENCIES:
+  - AWSCognito
+  - AWSCore
+  - AWSDynamoDB
+  - AWSS3
+  - AWSSNS
+  - Bolts
+  - IQKeyboardManager
+
+SPEC CHECKSUMS:
+  AWSCognito: e086ad6f499e309dbf0030170cffc65a0bfd27c6
+  AWSCore: e66b0f50d68f9897cc9e68471062f0cb5379eec5
+  AWSDynamoDB: 1d54c63fe63c2afcd0caea5ce709d1a0b213213f
+  AWSS3: 2f90735901744687eaeb91621fa62ee921db6510
+  AWSSNS: 6844814ce167da813e213a4d3f8f0e6c45ae3bed
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+
+PODFILE CHECKSUM: 6580acf17cae0499e16caa08f5038c1a38273fe5
+
+COCOAPODS: 1.1.1

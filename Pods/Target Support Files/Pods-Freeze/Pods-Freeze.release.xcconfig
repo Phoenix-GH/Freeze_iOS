@@ -1,0 +1,9 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AWSCognito" "${PODS_ROOT}/Headers/Public/AWSCore" "${PODS_ROOT}/Headers/Public/AWSDynamoDB" "${PODS_ROOT}/Headers/Public/AWSS3" "${PODS_ROOT}/Headers/Public/AWSSNS" "${PODS_ROOT}/Headers/Public/Bolts" "${PODS_ROOT}/Headers/Public/IQKeyboardManager"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AWSCognito" "$PODS_CONFIGURATION_BUILD_DIR/AWSCore" "$PODS_CONFIGURATION_BUILD_DIR/AWSDynamoDB" "$PODS_CONFIGURATION_BUILD_DIR/AWSS3" "$PODS_CONFIGURATION_BUILD_DIR/AWSSNS" "$PODS_CONFIGURATION_BUILD_DIR/Bolts" "$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManager"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AWSCognito" -isystem "${PODS_ROOT}/Headers/Public/AWSCore" -isystem "${PODS_ROOT}/Headers/Public/AWSDynamoDB" -isystem "${PODS_ROOT}/Headers/Public/AWSS3" -isystem "${PODS_ROOT}/Headers/Public/AWSSNS" -isystem "${PODS_ROOT}/Headers/Public/Bolts" -isystem "${PODS_ROOT}/Headers/Public/IQKeyboardManager"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AWSCognito" -l"AWSCore" -l"AWSDynamoDB" -l"AWSS3" -l"AWSSNS" -l"Bolts" -l"IQKeyboardManager" -l"sqlite3" -l"z" -framework "CoreGraphics" -framework "Foundation" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

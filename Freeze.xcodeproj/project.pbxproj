@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACC60CC91E11A74D386A2B26 /* libPods-Freeze.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F38137A9369E3A69CCD5D45C /* libPods-Freeze.a */; };
 		B7F4E8381DBEAE1700563A5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F4E8371DBEAE1700563A5D /* main.m */; };
 		B7F4E83B1DBEAE1700563A5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F4E83A1DBEAE1700563A5D /* AppDelegate.m */; };
 		B7F4E83E1DBEAE1700563A5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F4E83D1DBEAE1700563A5D /* ViewController.m */; };
@@ -15,6 +16,15 @@
 		B7F4E8461DBEAE1700563A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F4E8441DBEAE1700563A5D /* LaunchScreen.storyboard */; };
 		B7F4E8511DBEAE1700563A5D /* FreezeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F4E8501DBEAE1700563A5D /* FreezeTests.m */; };
 		B7F4E85C1DBEAE1700563A5D /* FreezeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F4E85B1DBEAE1700563A5D /* FreezeUITests.m */; };
+		B7F4E86E1DBF68BE00563A5D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F4E86D1DBF68BE00563A5D /* background.png */; };
+		B7F4E8701DBFB60B00563A5D /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F4E86F1DBFB60B00563A5D /* Constants.m */; };
+		B7F4E8741DBFBD0D00563A5D /* SignUpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F4E8731DBFBD0D00563A5D /* SignUpVC.m */; };
+		B7F4E8771DBFBF7300563A5D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F4E8761DBFBF7300563A5D /* User.m */; };
+		B7F4E87B1DBFC7CD00563A5D /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F4E87A1DBFC7CD00563A5D /* BaseVC.m */; };
+		B7F4E87F1DBFCD0400563A5D /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F4E87E1DBFCD0400563A5D /* LoginVC.m */; };
+		B7F794871DBFD4B6005A5D1F /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F794861DBFD4B6005A5D1F /* HomeVC.m */; };
+		B7F7948A1DBFE290005A5D1F /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F794891DBFE290005A5D1F /* MainVC.m */; };
+		B7F7948D1DBFE672005A5D1F /* StatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F7948C1DBFE672005A5D1F /* StatusCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FAAACF4F7DFDCD09F8AC70F /* Pods-Freeze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freeze.release.xcconfig"; path = "Pods/Target Support Files/Pods-Freeze/Pods-Freeze.release.xcconfig"; sourceTree = "<group>"; };
 		B7F4E8331DBEAE1700563A5D /* Freeze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freeze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F4E8371DBEAE1700563A5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7F4E8391DBEAE1700563A5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,25 @@
 		B7F4E8571DBEAE1700563A5D /* FreezeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreezeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F4E85B1DBEAE1700563A5D /* FreezeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreezeUITests.m; sourceTree = "<group>"; };
 		B7F4E85D1DBEAE1700563A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F4E8691DBEF3C600563A5D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B7F4E86D1DBF68BE00563A5D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		B7F4E86F1DBFB60B00563A5D /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		B7F4E8721DBFBD0D00563A5D /* SignUpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpVC.h; sourceTree = "<group>"; };
+		B7F4E8731DBFBD0D00563A5D /* SignUpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpVC.m; sourceTree = "<group>"; };
+		B7F4E8751DBFBF3100563A5D /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B7F4E8761DBFBF7300563A5D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		B7F4E8791DBFC7CD00563A5D /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		B7F4E87A1DBFC7CD00563A5D /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		B7F4E87D1DBFCD0400563A5D /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		B7F4E87E1DBFCD0400563A5D /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		B7F794851DBFD4B6005A5D1F /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		B7F794861DBFD4B6005A5D1F /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		B7F794881DBFE290005A5D1F /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		B7F794891DBFE290005A5D1F /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		B7F7948B1DBFE672005A5D1F /* StatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusCell.h; sourceTree = "<group>"; };
+		B7F7948C1DBFE672005A5D1F /* StatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusCell.m; sourceTree = "<group>"; };
+		E31D3E21E718A6DC704CB2E6 /* Pods-Freeze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freeze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Freeze/Pods-Freeze.debug.xcconfig"; sourceTree = "<group>"; };
+		F38137A9369E3A69CCD5D45C /* libPods-Freeze.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Freeze.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC60CC91E11A74D386A2B26 /* libPods-Freeze.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +109,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A4AAF2BC0543D80FF04F8A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F38137A9369E3A69CCD5D45C /* libPods-Freeze.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B7F4E82A1DBEAE1700563A5D = {
 			isa = PBXGroup;
 			children = (
+				B7F4E86C1DBF68AB00563A5D /* Resources */,
 				B7F4E8351DBEAE1700563A5D /* Freeze */,
 				B7F4E84F1DBEAE1700563A5D /* FreezeTests */,
 				B7F4E85A1DBEAE1700563A5D /* FreezeUITests */,
 				B7F4E8341DBEAE1700563A5D /* Products */,
+				D3CF022C3D76DF89ED2D5183 /* Pods */,
+				1A4AAF2BC0543D80FF04F8A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +152,18 @@
 				B7F4E8441DBEAE1700563A5D /* LaunchScreen.storyboard */,
 				B7F4E8471DBEAE1700563A5D /* Info.plist */,
 				B7F4E8361DBEAE1700563A5D /* Supporting Files */,
+				B7F4E8711DBFB61F00563A5D /* Constants */,
+				B7F4E87C1DBFCCE900563A5D /* SignUp */,
+				B7F4E8781DBFBFAD00563A5D /* User */,
+				B7F4E8791DBFC7CD00563A5D /* BaseVC.h */,
+				B7F4E87A1DBFC7CD00563A5D /* BaseVC.m */,
+				B7F4E8801DBFCD0800563A5D /* BaseVC */,
+				B7F794851DBFD4B6005A5D1F /* HomeVC.h */,
+				B7F794861DBFD4B6005A5D1F /* HomeVC.m */,
+				B7F794881DBFE290005A5D1F /* MainVC.h */,
+				B7F794891DBFE290005A5D1F /* MainVC.m */,
+				B7F7948B1DBFE672005A5D1F /* StatusCell.h */,
+				B7F7948C1DBFE672005A5D1F /* StatusCell.m */,
 			);
 			path = Freeze;
 			sourceTree = "<group>";
@@ -140,6 +194,59 @@
 			path = FreezeUITests;
 			sourceTree = "<group>";
 		};
+		B7F4E86C1DBF68AB00563A5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7F4E86D1DBF68BE00563A5D /* background.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B7F4E8711DBFB61F00563A5D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B7F4E8691DBEF3C600563A5D /* Constants.h */,
+				B7F4E86F1DBFB60B00563A5D /* Constants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		B7F4E8781DBFBFAD00563A5D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B7F4E8751DBFBF3100563A5D /* User.h */,
+				B7F4E8761DBFBF7300563A5D /* User.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		B7F4E87C1DBFCCE900563A5D /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				B7F4E8721DBFBD0D00563A5D /* SignUpVC.h */,
+				B7F4E8731DBFBD0D00563A5D /* SignUpVC.m */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		B7F4E8801DBFCD0800563A5D /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				B7F4E87D1DBFCD0400563A5D /* LoginVC.h */,
+				B7F4E87E1DBFCD0400563A5D /* LoginVC.m */,
+			);
+			name = BaseVC;
+			sourceTree = "<group>";
+		};
+		D3CF022C3D76DF89ED2D5183 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E31D3E21E718A6DC704CB2E6 /* Pods-Freeze.debug.xcconfig */,
+				1FAAACF4F7DFDCD09F8AC70F /* Pods-Freeze.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7F4E8601DBEAE1700563A5D /* Build configuration list for PBXNativeTarget "Freeze" */;
 			buildPhases = (
+				7DD728E4FE3E0ADFEEF24B95 /* [CP] Check Pods Manifest.lock */,
 				B7F4E82F1DBEAE1700563A5D /* Sources */,
 				B7F4E8301DBEAE1700563A5D /* Frameworks */,
 				B7F4E8311DBEAE1700563A5D /* Resources */,
+				048F0F69238EEF4030D76314 /* [CP] Embed Pods Frameworks */,
+				F359B865270754A2438A25C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7F4E8461DBEAE1700563A5D /* LaunchScreen.storyboard in Resources */,
+				B7F4E86E1DBF68BE00563A5D /* background.png in Resources */,
 				B7F4E8431DBEAE1700563A5D /* Assets.xcassets in Resources */,
 				B7F4E8411DBEAE1700563A5D /* Main.storyboard in Resources */,
 			);
@@ -265,14 +376,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		048F0F69238EEF4030D76314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Freeze/Pods-Freeze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DD728E4FE3E0ADFEEF24B95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F359B865270754A2438A25C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Freeze/Pods-Freeze-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7F4E82F1DBEAE1700563A5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F4E87B1DBFC7CD00563A5D /* BaseVC.m in Sources */,
 				B7F4E83E1DBEAE1700563A5D /* ViewController.m in Sources */,
 				B7F4E83B1DBEAE1700563A5D /* AppDelegate.m in Sources */,
+				B7F7948A1DBFE290005A5D1F /* MainVC.m in Sources */,
+				B7F7948D1DBFE672005A5D1F /* StatusCell.m in Sources */,
+				B7F794871DBFD4B6005A5D1F /* HomeVC.m in Sources */,
+				B7F4E8771DBFBF7300563A5D /* User.m in Sources */,
+				B7F4E8741DBFBD0D00563A5D /* SignUpVC.m in Sources */,
 				B7F4E8381DBEAE1700563A5D /* main.m in Sources */,
+				B7F4E87F1DBFCD0400563A5D /* LoginVC.m in Sources */,
+				B7F4E8701DBFB60B00563A5D /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +580,7 @@
 		};
 		B7F4E8611DBEAE1700563A5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31D3E21E718A6DC704CB2E6 /* Pods-Freeze.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Freeze/Info.plist;
@@ -424,6 +592,7 @@
 		};
 		B7F4E8621DBEAE1700563A5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FAAACF4F7DFDCD09F8AC70F /* Pods-Freeze.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Freeze/Info.plist;
@@ -498,6 +667,7 @@
 				B7F4E8621DBEAE1700563A5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7F4E8631DBEAE1700563A5D /* Build configuration list for PBXNativeTarget "FreezeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +676,7 @@
 				B7F4E8651DBEAE1700563A5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7F4E8661DBEAE1700563A5D /* Build configuration list for PBXNativeTarget "FreezeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +685,7 @@
 				B7F4E8681DBEAE1700563A5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
